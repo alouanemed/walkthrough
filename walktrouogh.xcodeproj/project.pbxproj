@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48835BAF218C6A69009F49C6 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48835BAE218C6A69009F49C6 /* Page.swift */; };
 		48DF84942189FAA400920FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF84932189FAA400920FFD /* AppDelegate.swift */; };
 		48DF84962189FAA400920FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF84952189FAA400920FFD /* ViewController.swift */; };
 		48DF84992189FAA400920FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DF84972189FAA400920FFD /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48835BAE218C6A69009F49C6 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		48DF84902189FAA400920FFD /* walktrouogh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walktrouogh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DF84932189FAA400920FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48DF84952189FAA400920FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48835BB0218C6F38009F49C6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				48835BAE218C6A69009F49C6 /* Page.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		48835BB2218C6F50009F49C6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				48DF84A7218B9BC700920FFD /* PageCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		48835BB3218C6F6F009F49C6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				48DF84952189FAA400920FFD /* ViewController.swift */,
+				48DF84A5218B978600920FFD /* SwipeController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		48DF84872189FAA400920FFD = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +85,10 @@
 		48DF84922189FAA400920FFD /* walktrouogh */ = {
 			isa = PBXGroup;
 			children = (
+				48835BB3218C6F6F009F49C6 /* controller */,
+				48835BB2218C6F50009F49C6 /* view */,
+				48835BB0218C6F38009F49C6 /* model */,
 				48DF84932189FAA400920FFD /* AppDelegate.swift */,
-				48DF84952189FAA400920FFD /* ViewController.swift */,
-				48DF84A7218B9BC700920FFD /* PageCell.swift */,
-				48DF84A5218B978600920FFD /* SwipeController.swift */,
 				48DF84972189FAA400920FFD /* Main.storyboard */,
 				48DF849A2189FAA700920FFD /* Assets.xcassets */,
 				48DF849C2189FAA700920FFD /* LaunchScreen.storyboard */,
@@ -145,6 +172,7 @@
 				48DF84942189FAA400920FFD /* AppDelegate.swift in Sources */,
 				48DF84A8218B9BC700920FFD /* PageCell.swift in Sources */,
 				48DF84A6218B978600920FFD /* SwipeController.swift in Sources */,
+				48835BAF218C6A69009F49C6 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
